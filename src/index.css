@@ -1,0 +1,229 @@
+:root{
+--button-backgroundcolor: #164B60;
+--font-family:'Inter';
+--font-style:'normal';
+--button-color:#FFFFFF;
+--positioning:'absolute';
+
+
+
+}
+
+.image-local-storage {
+  text-align: center;
+  margin: 20px;
+}
+
+
+
+.circle-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.btnAdd{
+
+  background: var(--button-backgroundcolor);
+  margin-top: 96px;
+  margin-left: 265px;
+  color:var(--button-color);
+  font-family: var(--font-family);
+  font-style: var(--font-style);
+  font-weight: 600;
+  font-size: 12px;
+  padding: 10px 26px;
+}
+
+.container{
+  box-sizing: border-box;
+  position: absolute;
+  left: 16.67%;
+  right: 20.83%;
+  top: 25%;
+  bottom: 25%;
+  border: 1px solid #164B60;
+}
+
+.input-field1{
+  position: absolute;
+  margin-left: 174px;
+  margin-top: 20px;
+  width: 173px;
+  height: 24px;
+  left: 370px;
+  top: 202px;
+  background: #FFFFFF;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-field2{
+  position: absolute;
+  margin-left: 174px;
+  margin-top: 59px;
+  width: 173px;
+  height: 24px;
+  left: 370px;
+  top: 202px;
+  background: #FFFFFF;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.display-member{
+  position: var(--positioning);
+  width: 626px;
+  height: 106px;
+  left: 325px;
+  top: 236px;
+  background: #FFFFFF;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 484px;
+  margin-top: 200px;
+}
+
+.btn{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 26px;
+gap: 18px;
+
+position: absolute;
+width: 127px;
+height: 35px;
+left: 1037px;
+top: 155px;
+
+background: var(--button-backgroundcolor);
+
+
+
+width: 75px;
+height: 15px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+
+color: var(--button-color);
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.edit-icon{
+  margin-left: 522px;
+  padding-bottom: 30px;
+  margin-top: -36px;
+  padding-right: 20px;
+}
+
+.delete-icon{
+  margin-left: 593px;
+  padding-bottom: 30px;
+  margin-top: -50px;
+  padding-right: -51px;
+}
+
+
+
+.Members-Added{
+  margin-right: 311px;
+  margin-top: -55px;
+}
+
+.edit-member{
+  margin-top: 271px;
+  background: var(--button-backgroundcolor);
+  color: var(--button-color);
+  padding-top: 11px;
+  padding-bottom: 10px;
+}
+
+
+.input-field1-edit{
+  position: absolute;
+  margin-left: 174px;
+  margin-top: 20px;
+  width: 173px;
+  height: 24px;
+  left: 239px;
+  top: 162px;
+  background: #FFFFFF;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-field2-edit{
+  position: absolute;
+  margin-left: 174px;
+  margin-top: 59px;
+  width: 173px;
+  height: 24px;
+  left: 242px;
+  top: 168px;
+  background: #FFFFFF;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.img-icon{
+  margin-left: 20px;
+}
+
+.circle-image-smaller{
+  width: 67px;
+  height: 69px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 16px;
+  margin-right: 495px; 
+}
+
+.back-arrow{
+    position: absolute;
+    height: 30px;
+    width: 393px;
+    margin-left: -167px;
+    margin-top: 16px;
+}
+
+.circle-image-edit{
+  width: 81px;
+  height: 74px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 18px;
+  margin-right: 303px; 
+}
+
+
+.image-local-storage-edit{
+  width: 81px;
+  height: 37px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -34px;
+  margin-left: 435px;
+}
+
+
+.back-arrow-add{
+   position: absolute;
+    height: 30px;
+    width: 393px;
+   margin-left: -177px;
+    margin-top: -197px;
+
+}
+
+
+
